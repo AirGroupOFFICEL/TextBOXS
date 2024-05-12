@@ -1,0 +1,4 @@
+ERROR_IN_COMMUNICATION_WITH_SERVER - Ошибка при передачи данных с сервером
+ERROR_IN_COMMUNICATION_WITH_SCRIPT_ON_SERVER - Ошибка при передачи со скриптом на сервере
+ERROR_USER_YES_ON_SERVER - Пользователь уже есть
+ERROR_NO_USER_ON_SERVER - Пользователя не существует

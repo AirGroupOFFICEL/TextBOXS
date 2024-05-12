@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="Вадим" authorOS="Windows 10" createdAt="1712738718564" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="TextBOXS" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1715417107416">
+  <tree>
+    <expanded>
+    <path src=""/>
+      <path src="/system"/>
+      <path src="/system/settings"/>
+      <path src="/vendor"/>
+      <path src="/vendor/develnext.bundle.jfoenix.JFoenixBundle"/>
+      <path src="/vendor/develnext.bundle.updater.UpdaterBundle"/>
+      <path src="/vendor/develnext.bundle.updater.UpdaterBundle/bundle"/>
+      <path src="/vendor/develnext.bundle.updater.UpdaterBundle/bundle/updater"/>
+    </expanded>
+  </tree>
+  <openedFiles>
+  <file src="TextBOXS.dnproject"/>
+    <file src="src/app/modules/MainModule.php"/>
+    <file src="src/app/forms/Editor.php"/>
+    <file selected="1" src="src/app/forms/FilesManager.php"/>
+    <file src="src/app/forms/Create.php"/>
+    <file src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/Chat.php"/>
+  </openedFiles>
+  <files/>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+  </behaviours>
+</project>
