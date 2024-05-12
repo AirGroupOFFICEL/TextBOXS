@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312" prefWidth="360" styleClass="">
+  <children>
+    <com.jfoenix.controls.JFXComboBox editable="false" focusColor="#4059a9" focusTraversable="true" id="CFont" labelFloat="" layoutX="16" layoutY="16" prefHeight="32" prefWidth="328" promptText="" unFocusColor="#4d4d4d" value="Comic Sans MS" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList"/>
+      </items>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="combo-box-base"/>
+        <String fx:value="combo-box"/>
+        <String fx:value="jfx-combo-box"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXComboBox>
+    <Data cursor="HAND" enabled="1" id="data-CFont" visible="1"/>
+    <com.jfoenix.controls.JFXToggleButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="TBold" layoutX="8" layoutY="48" prefHeight="64" prefWidth="168" selected="true" styleClass="toggle-button jfx-toggle-button " text="Жирный" textAlignment="LEFT" textFill="#000000" toggleColor="#009688" toggleLineColor="#77c2bb" unToggleColor="#fafafa" unToggleLineColor="#999999" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXToggleButton>
+    <Data cursor="HAND" enabled="1" id="data-TBold" visible="1"/>
+    <com.jfoenix.controls.JFXToggleButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="TItalic" layoutX="184" layoutY="48" prefHeight="64" prefWidth="168" styleClass="toggle-button jfx-toggle-button " text="Курсив" textAlignment="LEFT" textFill="#000000" toggleColor="#009688" toggleLineColor="#77c2bb" unToggleColor="#fafafa" unToggleLineColor="#999999" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXToggleButton>
+    <Data cursor="HAND" enabled="1" id="data-TItalic" visible="1"/>
+    <com.jfoenix.controls.JFXSlider blockIncrement="10" focusTraversable="true" id="SSize" indicatorPosition="LEFT" layoutX="8" layoutY="112" majorTickUnit="5" max="45" min="5" orientation="HORIZONTAL" prefHeight="48" prefWidth="344" showTickLabels="true" showTickMarks="true" snapToTicks="false" styleClass="slider jfx-slider " value="20"/>
+    <Data cursor="HAND" enabled="1" id="data-SSize" visible="1"/>
+    <Separator focusTraversable="false" id="S1" layoutX="0" layoutY="160" orientation="HORIZONTAL" prefHeight="8" prefWidth="384" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-S1" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LPrem" layoutX="16" layoutY="168" prefHeight="48" prefWidth="328" styleClass="label " text="Аа Бб Вв Фф" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LPrem" visible="1"/>
+    <Separator focusTraversable="false" id="S2" layoutX="0" layoutY="240" orientation="HORIZONTAL" prefHeight="8" prefWidth="384" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-S2" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BComplect" layoutX="200" layoutY="264" prefHeight="32" prefWidth="144" style="-fx-background-color: white;" styleClass="button jfx-button " text="Применить" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-BComplect" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BCanel" layoutX="16" layoutY="264" prefHeight="32" prefWidth="144" style="-fx-background-color: white;" styleClass="button jfx-button " text="Отмена" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-BCanel" visible="1"/>
+  </children>
+</AnchorPane>

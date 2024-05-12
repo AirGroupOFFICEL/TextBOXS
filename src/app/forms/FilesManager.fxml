@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464" prefWidth="616" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LName1" layoutX="16" layoutY="8" prefHeight="27.87109375" prefWidth="80.947265625" styleClass="label " text="Привет," textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LName1" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LName2" layoutX="40" layoutY="40" prefHeight="27.87109375" prefWidth="54.638671875" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LName2" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LKey1" layoutX="240" layoutY="8" prefHeight="27.87109375" prefWidth="62.998046875" styleClass="label " text="Ключ:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LKey1" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LKey2" layoutX="256" layoutY="40" prefHeight="27.87109375" prefWidth="54.638671875" styleClass="label " text="Текст" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-LKey2" visible="1"/>
+    <Separator focusTraversable="false" id="S1" layoutX="-8" layoutY="104" orientation="HORIZONTAL" prefHeight="8" prefWidth="632" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-S1" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#0000ff" focusTraversable="false" height="144" id="RFile1" layoutX="8" layoutY="120" stroke="#0000ff" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-RFile1" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="IFile1" layoutX="24" layoutY="128" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-IFile1" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LFile1" layoutX="16" layoutY="200" prefHeight="56" prefWidth="80" styleClass="label " text="Текст" textAlignment="CENTER" textFill="#ff0000" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LFile1" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#0000ff" focusTraversable="false" height="144" id="RFile2" layoutX="128" layoutY="120" stroke="#0000ff" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-RFile2" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="IFile2" layoutX="144" layoutY="128" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-IFile2" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LFile2" layoutX="136" layoutY="200" prefHeight="56" prefWidth="80" styleClass="label " text="Текст" textAlignment="CENTER" textFill="#ff0000" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LFile2" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#0000ff" focusTraversable="false" height="144" id="RFile3" layoutX="248" layoutY="120" stroke="#0000ff" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-RFile3" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="IFile3" layoutX="264" layoutY="128" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-IFile3" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LFile3" layoutX="256" layoutY="200" prefHeight="56" prefWidth="80" styleClass="label " text="Текст" textAlignment="CENTER" textFill="#ff0000" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LFile3" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#0000ff" focusTraversable="false" height="144" id="RFile4" layoutX="368" layoutY="120" stroke="#0000ff" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-RFile4" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="IFile4" layoutX="384" layoutY="128" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-IFile4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LFile4" layoutX="376" layoutY="200" prefHeight="56" prefWidth="80" styleClass="label " text="Текст" textAlignment="CENTER" textFill="#ff0000" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LFile4" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#0000ff" focusTraversable="false" height="144" id="RFile5" layoutX="488" layoutY="120" stroke="#0000ff" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-RFile5" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="64" id="IFile5" layoutX="504" layoutY="128" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-IFile5" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LFile5" layoutX="496" layoutY="200" prefHeight="56" prefWidth="80" styleClass="label " text="Текст" textAlignment="CENTER" textFill="#ff0000" underline="false" wrapText="true">
+      <font>
+        <Font name="Comic Sans MS Bold" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LFile5" visible="1"/>
+    <Separator focusTraversable="false" id="S2" layoutX="0" layoutY="272" orientation="HORIZONTAL" prefHeight="8" prefWidth="624" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-S2" visible="1"/>
+    <PaginationEx alignment="CENTER" columnHalignment="LEFT" focusTraversable="false" hgap="5" hintText="" id="PPage" layoutX="0" layoutY="288" maxHeight="-1" maxPageCount="10" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="HORIZONTAL" pageSize="5" prefHeight="40" prefWidth="616" rowValignment="CENTER" selectedPage="0" showPrevNext="false" showTotal="false" styleClass="nav " textColor="#000000" total="1" vgap="5">
+      <children>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="" layoutX="291" layoutY="0" prefHeight="-1" prefWidth="-1" text="1" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="Comic Sans MS Bold" size="20"/>
+          </font>
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="button"/>
+            <String fx:value="nav-item"/>
+            <String fx:value="selected"/>
+          </styleClass>
+        </Button>
+      </children>
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </PaginationEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-PPage" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BRefresh" layoutX="448" layoutY="416" prefHeight="32" prefWidth="144" ripplerFill="#000000" style="-fx-background-color: white;" styleClass="button jfx-button " text="Обновить" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-BRefresh" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LNonFile" layoutX="136" layoutY="152" prefHeight="69.677734375" prefWidth="298.828125" styleClass="label " text="Нет файлов" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="50"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LNonFile" visible="1"/>
+    <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="EDir" layoutX="8" layoutY="72" prefColumnCount="12" prefHeight="32" prefWidth="480" promptText="" text="/root" unFocusColor="#4d4d4d">
+      <font>
+        <Font name="Comic Sans MS Bold" size="14"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="jfx-text-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXTextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-EDir" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BDir" layoutX="552" layoutY="70" prefHeight="32" prefWidth="56" style="-fx-background-color: white;" styleClass="button jfx-button " text="-&gt;" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="16"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-BDir" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BCreate" layoutX="296" layoutY="416" prefHeight="32" prefWidth="144" ripplerFill="#00ff00" style="-fx-background-color: white;" styleClass="button jfx-button " text="Создать" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-BCreate" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BUp" layoutX="496" layoutY="69" prefHeight="36" prefWidth="48" style="-fx-background-color: white;" styleClass="button jfx-button " text="^" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="16"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-BUp" visible="1"/>
+  </children>
+</AnchorPane>

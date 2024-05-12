@@ -1,0 +1,124 @@
+{
+  "props": [],
+  "components": {
+    "saveFile": {
+      "type": "script\\MacroScript",
+      "x": 512,
+      "y": 336,
+      "props": {}
+    },
+    "fillData": {
+      "type": "script\\MacroScript",
+      "x": 64,
+      "y": 336,
+      "props": {
+        "disabled": false
+      }
+    },
+    "updateFiles": {
+      "type": "script\\MacroScript",
+      "x": 128,
+      "y": 336,
+      "props": {}
+    },
+    "hideAll": {
+      "type": "script\\MacroScript",
+      "x": 192,
+      "y": 336,
+      "props": {}
+    },
+    "hideAllInfo": {
+      "type": "script\\MacroScript",
+      "x": 256,
+      "y": 336,
+      "props": {}
+    },
+    "create": {
+      "type": "script\\MacroScript",
+      "x": 64,
+      "y": 272,
+      "props": {}
+    },
+    "startEditor": {
+      "type": "script\\MacroScript",
+      "x": 128,
+      "y": 272,
+      "props": {}
+    },
+    "startChat": {
+      "type": "script\\MacroScript",
+      "x": 192,
+      "y": 272,
+      "props": {
+        "disabled": false
+      }
+    },
+    "script": {
+      "type": "script\\MacroScript",
+      "x": 256.0,
+      "y": 160.0,
+      "props": {}
+    },
+    "updateChat": {
+      "type": "script\\MacroScript",
+      "x": 176,
+      "y": 144,
+      "props": {}
+    },
+    "updateChatTimer": {
+      "type": "script\\TimerScript",
+      "x": 80,
+      "y": 144,
+      "props": {
+        "interval": 400,
+        "repeatable": "1",
+        "autoStart": false
+      }
+    },
+    "checkData": {
+      "type": "script\\MacroScript",
+      "x": 80,
+      "y": 32,
+      "props": {}
+    },
+    "register": {
+      "type": "script\\MacroScript",
+      "x": 432,
+      "y": 32,
+      "props": {}
+    },
+    "login": {
+      "type": "script\\MacroScript",
+      "x": 384,
+      "y": 32,
+      "props": {}
+    },
+    "loadImage": {
+      "type": "script\\MacroScript",
+      "x": 576,
+      "y": 32,
+      "props": {}
+    },
+    "startURL": {
+      "type": "script\\MacroScript",
+      "x": 272,
+      "y": 32,
+      "props": {}
+    },
+    "startApp": {
+      "type": "script\\MacroScript",
+      "x": 208,
+      "y": 32,
+      "props": {
+        "runOnApply": true,
+        "runOnce": true
+      }
+    },
+    "resetPass": {
+      "type": "script\\MacroScript",
+      "x": 16,
+      "y": 32,
+      "props": {}
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280" prefWidth="360" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LName" layoutX="8" layoutY="8" prefHeight="27.87109375" prefWidth="48.41796875" styleClass="label " text="Имя:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LName" visible="1"/>
+    <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="EName" layoutX="32" layoutY="40" prefColumnCount="12" prefHeight="32" prefWidth="312" promptText="" text="" unFocusColor="#4d4d4d">
+      <font>
+        <Font name="Comic Sans MS Bold" size="14"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="jfx-text-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXTextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-EName" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LType" layoutX="8" layoutY="80" prefHeight="27.87109375" prefWidth="48.26171875" styleClass="label " text="Тип:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LType" visible="1"/>
+    <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="RType" layoutX="24" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="88" prefWidth="112" selectedIndex="-1" spacing="2" styleClass="" textColor="#000000">
+      <children/>
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Папка"/>
+          <String fx:value="Файл"/>
+          <String fx:value="Чат"/>
+        </FXCollections>
+      </items>
+    </RadioGroupPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-RType" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BCreate" layoutX="120" layoutY="224" prefHeight="42" prefWidth="120" style="-fx-background-color: white;" styleClass="button jfx-button " text="Создать" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-BCreate" visible="1"/>
+  </children>
+</AnchorPane>

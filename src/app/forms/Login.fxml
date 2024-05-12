@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456" prefWidth="528" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="128" id="ILogo" layoutX="104" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="128">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-ILogo" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LLogo" layoutX="248" layoutY="24" prefHeight="55.7421875" prefWidth="256.26953125" styleClass="label " text="Наше новое - это &#10;хорошо забытое прошлое" textAlignment="LEFT" textFill="#ff0000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LLogo" visible="1"/>
+    <Separator focusTraversable="false" id="S1" layoutX="0" layoutY="144" orientation="HORIZONTAL" prefHeight="8" prefWidth="552" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-S1" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LLogin" layoutX="16" layoutY="152" prefHeight="27.87109375" prefWidth="68.603515625" styleClass="label " text="Логин:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LLogin" visible="1"/>
+    <com.jfoenix.controls.JFXTextField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="ELogin" layoutX="40" layoutY="184" prefColumnCount="12" prefHeight="32" prefWidth="488" promptText="" text="" unFocusColor="#4d4d4d">
+      <font>
+        <Font name="Comic Sans MS Bold" size="14"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="jfx-text-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXTextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-ELogin" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LPassword" layoutX="16" layoutY="224" prefHeight="27.87109375" prefWidth="83.2421875" styleClass="label " text="Пароль:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LPassword" visible="1"/>
+    <com.jfoenix.controls.JFXPasswordField alignment="CENTER_LEFT" editable="true" focusColor="#4059a9" focusTraversable="true" id="EPassword" layoutX="40" layoutY="264" prefColumnCount="12" prefHeight="32" prefWidth="488" promptText="" text="" unFocusColor="#4d4d4d">
+      <font>
+        <Font name="Comic Sans MS Bold" size="14"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="password-field"/>
+        <String fx:value="jfx-password-field"/>
+      </styleClass>
+    </com.jfoenix.controls.JFXPasswordField>
+    <Data cursor="DEFAULT" enabled="1" id="data-EPassword" visible="1"/>
+    <Separator focusTraversable="false" id="S2" layoutX="0" layoutY="312" orientation="HORIZONTAL" prefHeight="8" prefWidth="560" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-S2" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BLogin" layoutX="168" layoutY="328" prefHeight="32" prefWidth="144" style="-fx-background-color: white;" styleClass="button jfx-button " text="Войти" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-BLogin" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LReg" layoutX="56" layoutY="384" prefHeight="27.87109375" prefWidth="170.205078125" styleClass="label " text="Нет аккаунта? - " textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LReg" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" id="LIReg" layoutX="224" layoutY="384" prefHeight="28" prefWidth="192" styleClass="hyperlink " text="Зарегистрируйтесь!" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="HAND" enabled="1" id="data-LIReg" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LResetPassword" layoutX="56" layoutY="408" prefHeight="27.87109375" prefWidth="194.0234375" styleClass="label " text="Забыли пароль? - " textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LResetPassword" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" id="LIResetPassword" layoutX="248" layoutY="408" prefHeight="28" prefWidth="184" styleClass="hyperlink " text="Востановите его!" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="HAND" enabled="1" id="data-LIResetPassword" visible="1"/>
+    <com.jfoenix.controls.JFXToggleButton alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="0" id="CSave" layoutX="328" layoutY="320" prefHeight="64" prefWidth="184" styleClass="toggle-button jfx-toggle-button " text="Запомнить" textAlignment="LEFT" textFill="#000000" toggleColor="#009688" toggleLineColor="#77c2bb" unToggleColor="#fafafa" unToggleLineColor="#999999" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXToggleButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-CSave" visible="1"/>
+  </children>
+</AnchorPane>

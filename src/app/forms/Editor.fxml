@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <TextArea AnchorPane.bottomAnchor="56" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="48" editable="true" focusTraversable="true" id="MText" layoutX="0" layoutY="48" prefColumnCount="40" prefHeight="376" prefWidth="640" promptText="" styleClass="text-input text-area " text="" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-MText" visible="1"/>
+    <LabelEx AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="LName" layoutX="0" layoutY="0" prefHeight="48" prefWidth="640" styleClass="label " text="Текст" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-LName" visible="1"/>
+    <com.jfoenix.controls.JFXButton AnchorPane.bottomAnchor="6" AnchorPane.leftAnchor="264" AnchorPane.rightAnchor="254" alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="Bfont" layoutX="264" layoutY="432" prefHeight="42" prefWidth="152" style="-fx-background-color: white;" styleClass="button jfx-button " text="Шрифт" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-Bfont" visible="1"/>
+    <com.jfoenix.controls.JFXButton AnchorPane.bottomAnchor="6" AnchorPane.leftAnchor="32" alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BSave" layoutX="32" layoutY="432" prefHeight="32" prefWidth="144" style="-fx-background-color: white;" styleClass="button jfx-button " text="Сохранить" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-BSave" visible="1"/>
+    <com.jfoenix.controls.JFXButton AnchorPane.bottomAnchor="6" AnchorPane.rightAnchor="32" alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="BClose" layoutX="464" layoutY="432" prefHeight="32" prefWidth="144" style="-fx-background-color: white;" styleClass="button jfx-button " text="Закрыть" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS Bold" size="20"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-BClose" visible="1"/>
+  </children>
+</AnchorPane>
